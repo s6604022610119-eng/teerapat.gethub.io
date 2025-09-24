@@ -2,15 +2,20 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>Resume - Your Name</title>
+  <title>Resume - Teerapat Chiangpheng</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
-    .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
-    h1 { color: #2c3e50; }
-    h2 { color: #2980b9; border-bottom: 2px solid #2980b9; padding-bottom: 5px; }
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f0f2f5; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    h1 { color: #2c3e50; margin-bottom: 10px; }
+    h2 { color: #2980b9; border-bottom: 2px solid #2980b9; padding-bottom: 5px; margin-top: 30px; }
+    p, li, td { font-size: 16px; color: #333; }
+    ul { padding-left: 20px; }
     table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-    table, th, td { border: 1px solid #ddd; padding: 8px; }
-    .profile-pic { width: 120px; border-radius: 50%; margin-bottom: 20px; }
+    table, th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+    th { background: #f4f4f4; }
+    .profile-pic { width: 140px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0 0 8px rgba(0,0,0,0.2); }
+    .contact a { color: #2980b9; text-decoration: none; margin: 0 10px; }
+    .stars { color: #f39c12; font-size: 18px; }
   </style>
 </head>
 <body>
@@ -18,7 +23,11 @@
     <center>
       <img src="your-photo.jpg" alt="Profile Picture" class="profile-pic">
       <h1>นายธีรภัทร เจียงเพ็ง</h1>
-      <p>Email: trptan4@gmail.com | Tel: 094-904-7595</p>
+      <p>Email: <a href="mailto:trptan4@gmail.com">trptan4@gmail.com</a> | Tel: 094-904-7595</p>
+      <div class="contact">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      </div>
     </center>
 
     <h2>ข้อมูลส่วนตัว</h2>
@@ -32,18 +41,18 @@
 
     <h2>ประสบการณ์</h2>
     <ul>
-      <li>ระบบร้านค้า จัดการฐานข้อมูล</li>
+      <li>พัฒนาเว็บไซต์ระบบร้านค้า + จัดการฐานข้อมูล</li>
       <li>ทำโปรเจค Web Resume ด้วย HTML/CSS</li>
     </ul>
 
     <h2>ทักษะ</h2>
     <table>
       <tr><th>ทักษะ</th><th>ระดับ</th></tr>
-      <tr><td>HTML / CSS</td><td></td></tr>
-      <tr><td>JavaScript</td><td></td></tr>
-      <tr><td>Python</td><td></td></tr>
-      <tr><td>C#</td><td></td></tr>
-      <tr><td>Sql</td><td></td></tr>
+      <tr><td>HTML / CSS</td><td class="stars"></td></tr>
+      <tr><td>JavaScript</td><td class="stars"></td></tr>
+      <tr><td>Python</td><td class="stars">/td></tr>
+      <tr><td>C#</td><td class="stars"></td></tr>
+      <tr><td>SQL</td><td class="stars"></td></tr>
     </table>
   </div>
 </body>
